@@ -1,0 +1,71 @@
+* {
+    /* for all the elements in the web page */
+    /* font-family: monospace; */
+    /* border: 1px solid blue; */
+}
+
+
+/* p {
+    color: purple!important;
+} */
+
+p {
+    color: red;
+}
+
+h1,
+h2 {
+    color: green;
+}
+
+html {
+    font-size: 22px;
+}
+
+
+/* often use html */
+
+
+/* 
+body {
+    /* font-size: 22px; 
+    /* border: 1px solid blue 
+}
+
+main {
+    font-family: monospace; 
+} */
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+
+/* p span {      /* for span element 
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: grey;
+}
+
+
+/* 
+.here {
+    /* for class 
+    color: blue;
+} */
+
+#second {
+    /* for article // id */
+    font-style: italic;
+}

@@ -1,0 +1,47 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.columns {
+    /* column-count: 4;
+    column-width: 250px; */
+    columns: 4 250px;
+    column-rule: 3px solid #333;
+    column-gap: 3rem;
+}
+
+.columns p {
+    margin-top: 0;
+}
+
+.columns h2 {
+    margin-top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    break-inside: avoid;
+    /*does not split the header into 2 different pices */
+    break-before: column;
+    /* header will be the top of the column */
+}
+
+
+/* .quote { */
+
+
+/* no change because .column p is more specific */
+
+.columns .quote {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+    column-span: all;
+}
+
+.nowrap {
+    white-space: nowrap;
+    /* it could not break "-The Dude" line */
+}

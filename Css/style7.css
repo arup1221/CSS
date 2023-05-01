@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font: 'Roboto', sans-serif;
+}
+
+
+/* main {
+    opacity: 0.4;
+} */
+
+a {
+    /* text-decoration: none; */
+    /* cursor: pointer; */
+    color: hsl(189, 44%, 49%);
+}
+
+
+/* 
+a:visited {
+    color: purple;
+} */
+
+a:hover,
+a:focus {
+    color: hsl(210, 100%, 56%, 0.8);
+    background: gold;
+    /* opacity: 0.4; */
+    /* 1 is max and 0 is the min  and the hsl also give the opacity*/
+}
+
+
+/* for focus use tab */
+
+a:active {
+    color: red;
+}
+
+
+/*  */
